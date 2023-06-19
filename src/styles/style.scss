@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.collapse {
+  display: none;
+  visibility: unset;
+}
+
+.home-page-banner {
+  background: linear-gradient(180deg, rgb(254, 226, 226) 40%, #ffffff 40%)
+}
+
+.product-banner-trending:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 33px solid #61d2b4;
+  border-right: 15px solid transparent;
+  position: absolute;
+  left: 100%;
+  top: 0px;
+}
+
+.product-banner-trending {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background-color:  #61d2b4;
+  border-color:  #61d2b4;
+  padding: 6px;
+  font-size: 14px;
+  border-top-left-radius: 4px;
+}
+
+.product-banner-category {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  color: #000000;
+  background-color:  rgb(254, 226, 226);
+  border: 1px solid #800000;
+  border-right: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 7px;
+  font-size: 10px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
