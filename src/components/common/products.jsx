@@ -45,7 +45,7 @@ const Products = (props) => {
               <div id={product.id} key={product.id} className="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-12 mb-4">
                 <div className="card text-center h-100" key={product.id}>
                   <img
-                    className="card-img-top p-3 h-56 w-56"
+                    className="card-img-top p-3 h-56 w-56 m-auto"
                     src={product.image}
                     alt={product.title}
                     height={100}
