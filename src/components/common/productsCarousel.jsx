@@ -31,13 +31,13 @@ const ProductsCarousel = ({ carouselData }) => {
         responsive={responsive}
         infinite={true}
         autoPlay={true}
-        autoPlaySpeed={2000}
+        autoPlaySpeed={1000}
         arrows={false}>
         {carouselData.map(item => {
           return <>
-            <div className="d-flex flex-row bg-red-100 rounded-2xl m-3 p-3">
+            <div className="d-flex flex-column flex-md-row bg-red-100 rounded-2xl m-3 p-3">
               <img
-                className="img-fluid h-40 w-40 px-2"
+                className="img-fluid h-40 w-40 px-2 m-auto"
                 src={item.image}
                 alt={item.title}
               />
